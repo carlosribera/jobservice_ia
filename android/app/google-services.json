@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "716357233684",
+    "firebase_url": "https://job-service-uqcu-default-rtdb.firebaseio.com",
+    "project_id": "job-service-uqcu",
+    "storage_bucket": "job-service-uqcu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716357233684:android:cc409625e0d36253ba4b01",
+        "android_client_info": {
+          "package_name": "com.example.jobserv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716357233684-ov94hf4aomiju2boc9355v2fna989omn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobserv",
+            "certificate_hash": "bd0d17cc14c8ce45fcf0558fee3a893602e19d8e"
+          }
+        },
+        {
+          "client_id": "716357233684-4n3ui0lfhvlv1qpq5gern1tpvqjh0dff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe5ZauepJtSyzWO_0eCC0539COZ2KnyoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716357233684-4n3ui0lfhvlv1qpq5gern1tpvqjh0dff.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "716357233684-9jb7cnp61pbpp9351omc34uo4gm1oe58.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jobserv"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716357233684:android:ab76ea00d18396bfba4b01",
+        "android_client_info": {
+          "package_name": "com.example.jobservice_ia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716357233684-4n3ui0lfhvlv1qpq5gern1tpvqjh0dff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe5ZauepJtSyzWO_0eCC0539COZ2KnyoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716357233684-4n3ui0lfhvlv1qpq5gern1tpvqjh0dff.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "716357233684-9jb7cnp61pbpp9351omc34uo4gm1oe58.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jobserv"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
