@@ -52,6 +52,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           break;
       }
 
+      // ignore: use_build_context_synchronously
       showDialog(
           context: context,
           builder: (context) {

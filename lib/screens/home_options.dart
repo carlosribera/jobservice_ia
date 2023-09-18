@@ -1,4 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:jobservice_ia/config/theme/app_theme.dart';
@@ -7,7 +6,6 @@ import 'package:jobservice_ia/config/theme/app_theme.dart';
 
 // import '../../../provider/google_sign_in.dart';
 import '../components/rounded_button.dart';
-import 'login_screen.dart';
 import 'JobService/main_screen.dart';
 import 'JobService/utils/const.dart';
 import 'RegisterEmployee/register_option.dart';

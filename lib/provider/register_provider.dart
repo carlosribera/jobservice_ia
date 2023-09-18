@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class RegisterProvider extends ChangeNotifier {
   RegisterProvider() {
+    // ignore: avoid_print
     print('Inciando register_provider...');
   }
 
