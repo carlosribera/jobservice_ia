@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:jobservice_ia/presentation/screens/Home/home_options.dart';
-import 'package:jobservice_ia/presentation/screens/auth/SignIn/signin_screen.dart';
+import 'package:jobservice_ia/screens/home_options.dart';
+import 'package:jobservice_ia/screens/login_screen.dart';
 import 'package:jobservice_ia/provider/google_sign_in.dart';
 import 'package:provider/provider.dart';
 
@@ -31,20 +31,18 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Flutter Auth',
           theme: AppTheme(selectedColor: 0).theme(),
-          // home: const HomePage(),
           home: ChangeNotifierProvider(
           create: (context) => GoogleSignInProvider(),
           child: StreamBuilder(
             stream: FirebaseAuth.instance.authStateChanges(),
             builder: (context, snapshot) {
               final provider = Provider.of<GoogleSignInProvider>(context);
-
               if (provider.isSigningIn) {
                 return buildLoading();
               } else if (snapshot.hasData) {
                 return const HomeOptions();
               } else {
-                return const SignInScreen();
+                return const LoginScreen();
               }
             },
           ),

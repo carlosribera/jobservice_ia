@@ -10,7 +10,7 @@ class RoundedInputField extends StatelessWidget {
   const RoundedInputField({
     Key key, 
     this.hintText, 
-    this.icon = Icons.person, 
+    this.icon, 
     this.onChanged, 
     this.ctrl,
   }) : super(key: key);
@@ -20,6 +20,7 @@ class RoundedInputField extends StatelessWidget {
     final colors = Theme.of(context).colorScheme;
     return TextFieldContainer(
       child: TextField( 
+        autofocus: true,
         controller: ctrl,
         onChanged: onChanged,
         decoration: InputDecoration(

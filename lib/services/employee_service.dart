@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-import '../model/employee.dart';
+import '../models/employee.dart';
 
 class EmployeeService {
   CollectionReference employeeRef =

@@ -4,7 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:jobservice_ia/presentation/screens/Home/home_options.dart';
+import 'package:jobservice_ia/screens/home_options.dart';
 
 class GoogleSignupButtonWidget extends StatelessWidget {
   const GoogleSignupButtonWidget({Key key}) : super(key: key);
@@ -16,7 +16,7 @@ class GoogleSignupButtonWidget extends StatelessWidget {
       padding: const EdgeInsets.all(4),
       child: OutlinedButton.icon(
         label: const Text(
-          'Sign In With Google',
+          'Ingresa con Google',
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
         ),
         style: OutlinedButton.styleFrom(
