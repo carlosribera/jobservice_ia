@@ -16,7 +16,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: getAppBar(context,'Servicios',true),
+      appBar: getAppBar(context,'JobServices',true),
       body: PageView(
         physics: const NeverScrollableScrollPhysics(),
         children: List.generate(4, (index) => const Home()),

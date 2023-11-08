@@ -4,7 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:jobservice_ia/screens/home_options.dart';
+import 'package:jobservice_ia/screens/JobService/main_screen.dart';
 
 class GoogleSignupButtonWidget extends StatelessWidget {
   const GoogleSignupButtonWidget({Key key}) : super(key: key);
@@ -49,7 +49,7 @@ class GoogleSignupButtonWidget extends StatelessWidget {
     print(userCredential.user.displayName);
     if (userCredential.user != null) {
       Navigator.of(context)
-          .push(MaterialPageRoute(builder: (context) => const HomeOptions()));
+          .push(MaterialPageRoute(builder: (context) => const MainScreen()));
     }
   }
 
